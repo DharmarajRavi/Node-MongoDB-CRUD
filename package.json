@@ -1,0 +1,21 @@
+{
+  "name": "movie-services",
+  "version": "1.0.0",
+  "description": "movie tickets booking",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon ./main.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Comcast",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "lodash": "^4.17.21",
+    "mongodb": "^4.1.0",
+    "pino": "^6.13.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}
